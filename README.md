@@ -1,6 +1,10 @@
 # CC4 Technical Challenge 
 
-# How to View the Code
+ /\_/\  
+( o.o ) 
+ > ^ <
+
+## How to View the Code
 
 The code in this repository is written in Appian. To view the code, please follow these steps:
 
