@@ -28,12 +28,12 @@ The Expense Share Application has automated test cases written in Playwright. To
    
 ```bash
 npm init playwright@latest
-
+```
 3. **Run the Tests:** Execute the Playwright test scripts to verify the functionality of the application.
 
 ```bash
 npx playwright test
-
+```
 4. **View Test Results:** Review the test results to ensure that the application is functioning as expected.
 
 
