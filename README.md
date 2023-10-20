@@ -37,7 +37,7 @@ npx playwright test
 4. **View Test Results:** Review the test results to ensure that the application is functioning as expected.
 
 ## Challenge 2 Solution
-In this repository, you will find the solution for Challenge 2, which is represented by the file Challenge 2.jpg. To access the solution, simply click on the file and it will be displayed.
+In this repository, you will find the solution for Challenge 2, which is represented by the file Challenge 2.png. To access the solution, simply click on the file and it will be displayed.
 
 
 
