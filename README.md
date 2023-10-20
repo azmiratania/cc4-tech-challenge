@@ -25,11 +25,15 @@ The core functionality of the application is implemented in the "Get Least Numbe
 The Expense Share Application has automated test cases written in Playwright. To run the tests, follow these steps:
 1. **Clone the Repository:** Clone this repository to your local development environment.
 2. **Install Dependencies:** Ensure that you have Playwright and any other necessary dependencies installed.
+   
 ```bash
 npm init playwright@latest
+
 3. **Run the Tests:** Execute the Playwright test scripts to verify the functionality of the application.
+
 ```bash
 npx playwright test
+
 4. **View Test Results:** Review the test results to ensure that the application is functioning as expected.
 
 
