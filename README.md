@@ -5,7 +5,7 @@
 The code in this repository is written in Appian. To view the code, please follow these steps:
 
 1. Navigate to the following link: [Code on Appian](https://pgul.appian.community/suite/design/app/OHcUoWCgSK6o-Onn05048w/objects)
-2. 2. Use the following credentials to log in:
+2. Use the following credentials to log in:
    - **Username:** cc4
    - **Password:** hello123
 
