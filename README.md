@@ -11,7 +11,7 @@ The code for this challenge has been written in Appian. To view the code, please
 
 This link will take you to the Appian platform, and you can log in with the provided credentials to access and review the code.
 
-## Process Model: Get Least Number of Transactions
+### Process Model: Get Least Number of Transactions
 
 The core functionality of the application is implemented in the "Get Least Number of Transactions" process model. 
 
