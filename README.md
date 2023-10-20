@@ -15,13 +15,13 @@ This link will take you to the Appian platform, and you can log in with the prov
 
 The core functionality of the application is implemented in the "Get Least Number of Transactions" process model. 
 
-## How to Test the Code
+## How to Test the Code in Appian
 1. Navigate to the following link: [Code on Appian](https://pgul.appian.community/suite/sites/expense-calculator)
 2. Use the following basic user credentials to log in:
    - **Username:** alice
    - **Password:** hello123
   
-## Testing
+## How to Test the Code using Playwright
 The Expense Share Application has automated test cases written in Playwright. To run the tests, follow these steps:
 1. **Clone the Repository:** Clone this repository to your local development environment.
 2. **Install Dependencies:** Ensure that you have Playwright and any other necessary dependencies installed.
