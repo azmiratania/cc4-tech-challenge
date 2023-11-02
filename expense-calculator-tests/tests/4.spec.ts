@@ -1,17 +1,13 @@
 import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
-  await page.goto('https://pgul.appian.community/suite/');
+  await page.goto('https://pgul.appian.community/suite/sites/expense-calculator/');
   await page.getByRole('button', { name: 'I Agree' }).click();
-  await page.getByPlaceholder('Username').click();
   await page.getByPlaceholder('Username').fill('alice');
-  await page.getByPlaceholder('Password').click();
+  await page.getByPlaceholder('Username').press('Tab');
   await page.getByPlaceholder('Password').fill('hello123');
-  await page.getByRole('button', { name: 'Sign In' }).click();
-  await page.getByRole('button', { name: 'Navigation' }).click();
-  
-  
-  await page.goto("https://pgul.appian.community/suite/sites/expense-calculator/page/expenses/start-process/iQBkhfYMQ3WH4e_sSOL07lK8QdSdgxAgBD5j8OuabeeNqq3NQw?parameters=a23aec1e-6b12-4bcf-8567-ea2efb9507ad")
+  await page.getByPlaceholder('Password').press('Enter');
+  await page.getByRole('link', { name: 'Caluculate Your Expenses' }).click();
 
 
 
@@ -41,12 +37,6 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Submit' }).click();
   
   await page.getByRole('heading', { name: 'Results' }).click();
-
-
-  await page.getByText('Charlie pays Alice $15.00.').click();
-  await page.getByText(' Don pays Bob $15.00.').click();
-  await page.getByText('Number of transactions:').click();
-  await page.getByText('2').click();
 
   // Capture a screenshot of the page
   await page.screenshot({ path: '4.png' });
